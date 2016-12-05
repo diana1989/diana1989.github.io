@@ -1,0 +1,105 @@
+body {
+	position: relative;
+	font-family: "Tinos", sans-serif;
+	font-size: 11pt;
+	line-height: 1;
+	background-image: url(../images/map.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 50vw;
+	min-height: 100vh;
+	background-attachment: fixed;
+}
+header {
+	background-color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+}
+.logo{
+font-size: 18pt;
+font-weight: bolder;
+text-transform: uppercase;
+color: black;
+display: inline-block;
+text-decoration: none;
+}
+.container {
+	max-width: 2000px;
+	padding-left: 10em;
+	padding-right: 10em;
+	margin: 0 auto;
+}
+
+.menu {
+	font-size: 14pt;
+
+}
+.menu li{
+	display: inline-block;
+	margin-right: 1em;
+	
+}
+.menu a{
+	display: inline-block;
+	color: #696969;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid;
+	margin-right: 50px;
+}
+.menu a:hover,
+.menu .active{
+	color: #000000;
+}
+
+.page{
+	padding-bottom: 10em;
+}
+
+main{
+padding-top: 2em;
+padding-bottom: 2em;
+background: rgba(255,255,255,0.7);
+}
+
+.pos-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  background: rgba(0,0,0, 0.3);
+  color: white;
+  font-size: 0.86em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+  footer div {
+    float: left;
+    padding-top: 0.5em;
+  }
+
+.clearfix:after {
+		content: '';
+		display: block;
+		clear:both;
+		visibility: hidden;
+		height: 0;
+	}
+
+.bordered-title {
+	 color: #756464;
+  font-size: 1.29em;
+  border-bottom: 1px solid;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-bottom: 1.2em;
+  text-transform: uppercase;
+}
+.gallery img{
+width: 70%;
+}
